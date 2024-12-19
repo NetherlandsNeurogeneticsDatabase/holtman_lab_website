@@ -13,10 +13,23 @@
       height: auto;
       object-fit: cover;
     }
+    .card-img-top {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+    .card-body {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .card {
+      margin-bottom: 20px;
+    }
   </style>
 </head>
 <body>
-     <!-- Navbar -->
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <a class="navbar-brand" href="index.html">Holtman Lab</a>
@@ -32,123 +45,122 @@
             <a class="nav-link" href="#our-mission">Our mission</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#nnd">News</a>
+            <a class="nav-link" href="news.html">News</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#nnd">NND</a>
+            <a class="nav-link" href="nnd.html">NND</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <br></br>
+  
+  <br>
   <h2 class="text-center">Our Team</h2>
-  <br></br>
+  <br>
 
-  <div class="card mb-3" style="max-width: 100%; height: 300px;">
+  <!-- Team Member Cards -->
+  <div class="card mb-3">
     <div class="row g-0">
       <div class="col-md-4">
-        <img src="images/inge.jpg" class="img-fluid rounded-start" alt="..." style="object-fit: cover; height: 300px; width=100%">
+        <img src="images/inge2.jpg" style="height:100%; width: 90%; margin-right: 3000px;" alt="Inge R. Holtman">
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title">Inge R. Holtman</h5>
-          <p class="card-text">In 2020, Dr. Holtman successfully pursued a Rosalind Franklin Fellowship that enabled her to become a junior group leader in the section of Molecular Neurobiology. Here she continues to study the effect of natural genetic variation on susceptibility to brain diseases. In collaboration with the Netherlands Brain Bank, she established the Netherlands Neurogenomics Database, which is supported by the ‘Stichting Vrienden van het Herseninstituut’. The aim of this project is to integrate the extensive clinical and neuropathological data of the NHB, with a multi-omics map in order to study the effects of genetic variation on brain disease using state-of-the-art computational and machine learning  approaches.
-        </p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <h4 class="card-title">Inge R. Holtman</h4>
+          <h5 class="card-title">Assistant Professor - Rosalind Franklin Junior Group Leader</h5>
+          <p class="card-text">In 2020, Dr. Holtman successfully pursued a Rosalind Franklin Fellowship that enabled her to become a junior group leader in the section of Molecular Neurobiology. Here she continues to study the effect of natural genetic variation on susceptibility to brain diseases. In collaboration with the Netherlands Brain Bank, she established the Netherlands Neurogenomics Database, which is supported by the ‘Stichting Vrienden van het Herseninstituut’. The aim of this project is to integrate the extensive clinical and neuropathological data of the NHB, with a multi-omics map in order to study the effects of genetic variation on brain disease using state-of-the-art computational and machine learning approaches.</p>
         </div>
       </div>
     </div>
   </div>
   
-  <br></br>
+  <br>
 
-  <div class="card mb-3" style="max-width: 100%; height: 300px;">
+  <div class="card mb-3">
     <div class="row g-0">
-      
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title">Alejandro Marmolejo Garza</h5>
+          <h4 class="card-title">Alejandro Marmolejo Garza</h4>
+          <h5 class="card-title">Postdoctoral Fellow</h5>
+
           <p class="card-text">I am a Medical Doctor with a masters in Medical and Pharmaceutical Drug Innovation with specialization in metabolism. My PhD research focused on investigating mitochondrial involvement in Alzheimer's Disease by employing in vitro models such as iPSC-derived brain organoids and microglia-like cells as well as patient- and mouse model-derived tissue. As a postdoctoral fellow, I am focusing on developing brain organoid models that recapitulate psychiatric disease to continue learning about the neurobiology of disease.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
       </div>
       <div class="col-md-4">
-        <img src="images/alejandro.png" class="img-fluid rounded-start" alt="..." style="object-fit: cover; height: 300px; width=100%">
+        <img src="images/alejandro2.png" class="card-img-top" alt="Alejandro Marmolejo Garza">
       </div>
     </div>
   </div>
 
-  <br></br>
-  <div class="card mb-3" style="max-width: 100%; height: 300px;">
+  <br>
+
+  <div class="card mb-3">
     <div class="row g-0">
       <div class="col-md-4">
-        <img src="images/kate.png" class="img-fluid rounded-start" alt="..." style="object-fit: cover; height: 300px; width=100%">
+        <img src="images/kate.png" class="card-img-top" alt="Ekaterina Dagkesamanskaia">
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title">Ekaterina Dagkesamanskaia</h5>
-          <p class="card-text">My research is focused on the deciphering the heterogeneity of brain disorders via bioinformatics. In our laboratory, we utilize a cross-disciplinary approach to examine neuropathology, clinical summaries, and genetic information. Our research is dedicated to enhancing our understanding of brain disorders, linking clinical presentations to their underlying biological mechanisms.s        </p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <h4 class="card-title">Ekaterina Dagkesamanskaia</h4>
+          <h5 class="card-title">PHD-student</h5>
+          <p class="card-text">My research is focused on the deciphering the heterogeneity of brain disorders via bioinformatics. In our laboratory, we utilize a cross-disciplinary approach to examine neuropathology, clinical summaries, and genetic information. Our research is dedicated to enhancing our understanding of brain disorders, linking clinical presentations to their underlying biological mechanisms.</p>
         </div>
       </div>
     </div>
   </div>
 
-  <br></br>
+  <br>
 
-  <div class="card mb-3" style="max-width: 100%; height: 300px;">
+  <div class="card mb-3">
     <div class="row g-0">
-      
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title">Nienke Mekkes</h5>
-          <p class="card-text">The aim of my project is to come to a better understanding of the multitude of brain disorders. To achieve this aim, we develop a cross-diagnostic approach where we integrate the extensive clinical and neuropathological data of the NHB together with multi-omics data using state-of-the-art computational and machine learning approaches.
-        </p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <h4 class="card-title">Nienke Mekkes</h4>
+          <h5 class="card-title">PHD-student</h5>
+          <p class="card-text">The aim of my project is to come to a better understanding of the multitude of brain disorders. To achieve this aim, we develop a cross-diagnostic approach where we integrate the extensive clinical and neuropathological data of the NHB together with multi-omics data using state-of-the-art computational and machine learning approaches.</p>
         </div>
       </div>
       <div class="col-md-4">
-        <img src="images/nienke.png" class="img-fluid rounded-start" alt="..." style="object-fit: cover; height: 300px; width=100%">
+        <img src="images/nienke.png" class="card-img-top" alt="Nienke Mekkes">
       </div>
     </div>
   </div>
 
-  <br></br>
+  <br>
 
-  <div class="card mb-3" style="max-width: 100%; height: 300px;">
+  <div class="card mb-3">
     <div class="row g-0">
       <div class="col-md-4">
-        <img src="images/tommaso.png" class="img-fluid rounded-start" alt="..." style="object-fit: cover; height: 300px; width=100%">
+        <img src="images/tommaso.png" class="card-img-top" alt="Tommaso Fortunato Asquini">
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title">Ekaterina Dagkesamanskaia</h5>
-          <p class="card-text">My research is focused on the deciphering the heterogeneity of brain disorders via bioinformatics. In our laboratory, we utilize a cross-disciplinary approach to examine neuropathology, clinical summaries, and genetic information. Our research is dedicated to enhancing our understanding of brain disorders, linking clinical presentations to their underlying biological mechanisms.s        </p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <h4 class="card-title">Tommaso Fortunato Asquini</h4>
+          <h5 class="card-title">PHD-student</h5>
+          <p class="card-text">My project focuses on neurobiological alterations in psychiatric disorders. We integrate multi-omic technologies to dissect the biological complexity of this class of diseases. We hope that this holistic approach will help to identify some of the molecular mechanisms underlying differences and similarities across multiple psychiatric conditions.</p>
         </div>
       </div>
     </div>
   </div>
 
-  <br></br>
+  <br>
 
-  <div class="card mb-3" style="max-width: 100%; height: 300px;">
+  <div class="card mb-3">
     <div class="row g-0">
-      
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title">Alejandro Marmolejo Garza</h5>
-          <p class="card-text">I am a Medical Doctor with a masters in Medical and Pharmaceutical Drug Innovation with specialization in metabolism. My PhD research focused on investigating mitochondrial involvement in Alzheimer's Disease by employing in vitro models such as iPSC-derived brain organoids and microglia-like cells as well as patient- and mouse model-derived tissue. As a postdoctoral fellow, I am focusing on developing brain organoid models that recapitulate psychiatric disease to continue learning about the neurobiology of disease.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <h4 class="card-title">Eric Hoekstra</h4>
+          <h5 class="card-title">Technician - Bioinformatician</h5>
+
+          <p class="card-text">I joined the lab in 2021 for an internship during my bachelor program Bioinformatics at the Hanze University. In 2022, I became a technician. My current role involves building and maintaining the Netherlands Neurogenomics database website as well as setting up a data management structure for our research group. I also implemented computational pipelines to optimize polygenic risk scores for brain disorders.</p>
         </div>
       </div>
       <div class="col-md-4">
-        <img src="images/alejandro.png" class="img-fluid rounded-start" alt="..." style="object-fit: cover; height: 300px; width=100%">
+        <img src="images/pingpong.png" class="card-img-top" alt="Eric Hoekstra">
       </div>
     </div>
   </div>
-
 
 </body>
 </html>
