@@ -7,13 +7,23 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="styles.css" rel="stylesheet">
+
   <style>
     .full-width-image {
       width: 100%;
       height: auto;
       object-fit: cover;
     }
-  </style>
+  
+  .drop-cap::first-letter {
+    font-size: 3.2em;
+    font-weight: bold;
+    float: left;
+    margin-right: 0.0em;
+    line-height: 1;
+  }
+</style>
+
 </head>
 <body>
   <!-- Navbar -->
@@ -51,19 +61,24 @@
   <!-- Full-width image -->
   <div>
     <img src="images/dotplot2.png" alt="Lab Image" class="full-width-image">
-  </div>
+  </div><br><br>
 
   <!-- Placeholder sections -->
   <div id="who-are-we" class="container my-5">
-    <h2>Who are we?</h2>
-    <p>Most brain disorders, including mental illnesses and neurodegenerative, are difficult to diagnose and study due to considerable heterogeneity, which is often overlooked. We established the Netherlands Neurogenetics Database to study this heterogeneity.
-    </p>
+    <p class="drop-cap" style="font-size:1.8rem">Most brain disorders, including mental illnesses and neurodegenerative, are difficult to diagnose and study due to considerable heterogeneity, which is often overlooked. The Holtman lab, part of the University Medical Center Groningen, established the Netherlands Neurogenetics Database in collaboration with the Netherlands Brain Bank to study this heterogeneity. </p>
 
+ <br><br>
     <!-- Centered Button -->
     <div class="center-button">
-        <a href="https://nnd.academy" target="_blank" class="btn btn-lg btn-primary">Go to NND</a>
+        <a href="https://nnd.academy" target="_blank" class="btn btn-lg btn-dark">Visit NND <i class="fa fa-external-link" style="font-size:24px"></i</a>
+        
+
       </div>
+
+      
   </div>
+ <hr>
+  <br><br>
   <!-- News Section -->
   <div id="news" class="container my-5">
     <h2 class="mb-4">Latest News</h2>
