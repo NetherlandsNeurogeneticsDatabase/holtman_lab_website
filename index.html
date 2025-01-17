@@ -22,6 +22,14 @@
     margin-right: 0.0em;
     line-height: 1;
   }
+
+  .bottom-shadow {
+  position: relative; /* Needed for the shadow to work properly */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Shadow below the div */
+  background-color: white; /* Optional: Ensure a contrasting background */
+}
+
+  
 </style>
 
 </head>
@@ -59,9 +67,11 @@
   </nav>
 
   <!-- Full-width image -->
-  <div>
+  <div class="bottom-shadow">
     <img src="images/dotplot2.png" alt="Lab Image" class="full-width-image">
-  </div><br><br>
+  </div>
+  
+  <br><br>
 
   <!-- Placeholder sections -->
   <div id="who-are-we" class="container my-5">
@@ -71,8 +81,6 @@
     <!-- Centered Button -->
     <div class="center-button">
         <a href="https://nnd.academy" target="_blank" class="btn btn-lg btn-dark">Visit NND</a>
-        
-
       </div>
 
       
@@ -162,13 +170,12 @@
       </div>
     </div>
   </div>
-
-  <footer class="footer" style="padding: 20px;">
+  <footer class="footer" style="padding: 20px; background-color: #c6c7c8">
     <div class="footer-content" style="display: flex; justify-content: center; align-items: center; margin-top: 1%">
         <div class="footer-images" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; width: 100%; max-width: 1200px;">
-            <img src="images/netherlands-brain-bank-og-logo.png" alt="Netherlands Brain Bank Logo" style="width: 100%; max-width: 350px; height: auto;">
-            <img src="images/logo-umcg.png" alt="UMCG Logo" style="width: 100%; max-width: 350px; height: auto;">
-            <img src="images/NND_logo_orange.png" alt="NND Logo" style="width: 100%; max-width: 350px; height: auto;">
+            <img src="images/netherlands-brain-bank-og-logo.png" alt="Netherlands Brain Bank Logo" style="width: 200px; max-width: 350px; height: auto;">
+            <img src="images/logo-umcg.png" alt="UMCG Logo" style="width: 100%; max-width: 200px; height: auto;">
+            <img src="images/NND_logo_orange.png" alt="NND Logo" style="width: 100%; max-width: 200px; height: auto;">
         </div>
     </div>
 </footer>
