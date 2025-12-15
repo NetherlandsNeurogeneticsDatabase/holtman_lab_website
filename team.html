@@ -4,200 +4,213 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Holtman Lab</title>
+
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="styles.css" rel="stylesheet">
+
   <style>
-    .full-width-image {
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-    }
-    .card-img-top {
-      object-fit: cover;
-      height: 100%;
-      width: 100%;
-    }
-    .card-body {
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-    }
     .card {
       margin-bottom: 20px;
     }
 
+    .card-img-top {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+
     .container {
-  max-width: 1000px; /* Adjust this value as needed */
-}
+      max-width: 1000px;
+    }
   </style>
 </head>
-<body >
+
+<body>
+
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <a class="navbar-brand" href="index.html">Holtman Lab</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="team.html">Our Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#our-mission">Our mission</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="news.html">News</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="nnd.html">NND</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="publications.html">Publication</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="links.html">Links</a>
-          </li>
+          <li class="nav-item"><a class="nav-link" href="team.html">Our Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="#our-mission">Our mission</a></li>
+          <li class="nav-item"><a class="nav-link" href="news.html">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="nnd.html">NND</a></li>
+          <li class="nav-item"><a class="nav-link" href="publications.html">Publication</a></li>
+          <li class="nav-item"><a class="nav-link" href="links.html">Links</a></li>
         </ul>
       </div>
     </div>
   </nav>
-  
-  <br>
-  <h2 class="text-center">Our Team</h2>
-  <br>
 
-  <!-- Team Member Cards -->
-  <div class="card mb-3">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="images/inge2.jpg" style="height:100%; width: 90%; margin-right: 3000px;" alt="Inge R. Holtman">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h4 class="card-title">Inge R. Holtman</h4>
-          <h5 class="card-title">Assistant Professor - Rosalind Franklin Junior Group Leader</h5>
-          <p class="card-text">In 2020, Dr. Holtman successfully pursued a Rosalind Franklin Fellowship that enabled her to become a junior group leader in the section of Molecular Neurobiology. Here she continues to study the effect of natural genetic variation on susceptibility to brain diseases. In collaboration with the Netherlands Brain Bank, she established the Netherlands Neurogenomics Database, which is supported by the ‘Stichting Vrienden van het Herseninstituut’. The aim of this project is to integrate the extensive clinical and neuropathological data of the NHB, with a multi-omics map in order to study the effects of genetic variation on brain disease using state-of-the-art computational and machine learning approaches.</p>
+  <div class="container mt-4">
+
+    <h2 class="text-center mb-4">Our Team</h2>
+
+    <!-- ===================== -->
+    <!-- Current Members -->
+    <!-- ===================== -->
+    <h4 class="mb-3">Current members</h4>
+
+    <!-- Inge -->
+    <div class="card">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="images/inge2.jpg" style="width: 90%;" alt="Inge R. Holtman">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h4 class="card-title">Inge R. Holtman</h4>
+            <h5 class="card-title">Assistant Professor – Rosalind Franklin Junior Group Leader</h5>
+            <p class="card-text">
+              In 2020, Dr. Holtman successfully pursued a Rosalind Franklin Fellowship that enabled her to become a junior group leader in the section of Molecular Neurobiology. Here she continues to study the effect of natural genetic variation on susceptibility to brain diseases. In collaboration with the Netherlands Brain Bank, she established the Netherlands Neurogenomics Database, supported by the Stichting Vrienden van het Herseninstituut.
+            </p>
+          </div>
         </div>
       </div>
     </div>
+
+    <!-- Alejandro -->
+    <div class="card">
+      <div class="row g-0">
+        <div class="col-md-8">
+          <div class="card-body">
+            <h4 class="card-title">Alejandro Marmolejo Garza</h4>
+            <h5 class="card-title">Postdoctoral Fellow</h5>
+            <p class="card-text">
+              I am a Medical Doctor with a master’s in Medical and Pharmaceutical Drug Innovation with specialization in metabolism. My PhD research focused on mitochondrial involvement in Alzheimer’s disease using iPSC-derived brain organoids and microglia-like cells. As a postdoctoral fellow, I focus on developing brain organoid models that recapitulate psychiatric disease.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="images/alejandro2.png" class="card-img-top" alt="Alejandro Marmolejo Garza">
+        </div>
+      </div>
+    </div>
+
+    <!-- Ekaterina -->
+    <div class="card">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="images/kate.png" class="card-img-top" alt="Ekaterina Dagkesamanskaia">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h4 class="card-title">Ekaterina Dagkesamanskaia</h4>
+            <h5 class="card-title">PhD student</h5>
+            <p class="card-text">
+              My research focuses on deciphering the heterogeneity of brain disorders using bioinformatics by integrating neuropathology, clinical summaries, and genetic information.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Nienke -->
+    <div class="card">
+      <div class="row g-0">
+        <div class="col-md-8">
+          <div class="card-body">
+            <h4 class="card-title">Nienke Mekkes</h4>
+            <h5 class="card-title">PhD student</h5>
+            <p class="card-text">
+              My project aims to better understand brain disorders through a cross-diagnostic approach integrating clinical, neuropathological, and multi-omics data.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="images/nienke.png" class="card-img-top" alt="Nienke Mekkes">
+        </div>
+      </div>
+    </div>
+
+    <!-- Shivam -->
+    <div class="card">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="images/self_pic2.png" style="width: 80%;" class="card-img-top" alt="Shivam Kumar">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h4 class="card-title">Shivam Kumar</h4>
+            <h5 class="card-title">Postdoctoral Fellow</h5>
+            <p class="card-text">
+              Shivam is a machine learning researcher with a background in biomedical imaging and deep learning. His work focuses on leveraging pathological imaging data to predict clinical traits and uncover genetic profiles.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Eric -->
+    <div class="card">
+      <div class="row g-0">
+        <div class="col-md-8">
+          <div class="card-body">
+            <h4 class="card-title">Eric Hoekstra</h4>
+            <h5 class="card-title">Technician – Bioinformatician</h5>
+            <p class="card-text">
+              Eric joined the lab in 2021 and focuses on building and maintaining the Netherlands Neurogenomics Database, data infrastructure, and computational pipelines.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="images/pingpong.png" class="card-img-top" alt="Eric Hoekstra">
+        </div>
+      </div>
+    </div>
+
+    <!-- Ruhi -->
+    <div class="card">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="images/ruhi_pic.jpg" style="width: 80%;" class="card-img-top" alt="Ruhi Soni">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h4 class="card-title">Ruhi Soni</h4>
+            <h5 class="card-title">Research Analyst</h5>
+            <p class="card-text">
+              Ruhi joined the Holtman lab in 2025 after completing an MSc in Bioinformatics and Systems Biology. She focuses on biological signatures underlying psychiatric disorders.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== -->
+    <!-- Former Members -->
+    <!-- ===================== -->
+    <h4 class="mt-5 mb-3">Former members</h4>
+
+    <div class="card">
+      <div class="card-body">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Tommaso Fortunato Asquini</li>
+          <li class="list-group-item">Ekaterina Dagkesamanskaia</li>
+          <li class="list-group-item">Maaike Brummer</li>
+          <li class="list-group-item">Gwenny Leistra</li>
+          <li class="list-group-item">Sander Bouwman</li>
+          <li class="list-group-item">Bart Engels</li>
+          <li class="list-group-item">Alyse de Boer</li>
+          <li class="list-group-item">Henrike Vaartstra</li>
+
+        </ul>
+      </div>
+    </div>
+
   </div>
-  
-  <br>
 
-  <div class="card mb-3">
-    <div class="row g-0">
-      <div class="col-md-8">
-        <div class="card-body">
-          <h4 class="card-title">Alejandro Marmolejo Garza</h4>
-          <h5 class="card-title">Postdoctoral Fellow</h5>
-
-          <p class="card-text">I am a Medical Doctor with a masters in Medical and Pharmaceutical Drug Innovation with specialization in metabolism. My PhD research focused on investigating mitochondrial involvement in Alzheimer's Disease by employing in vitro models such as iPSC-derived brain organoids and microglia-like cells as well as patient- and mouse model-derived tissue. As a postdoctoral fellow, I am focusing on developing brain organoid models that recapitulate psychiatric disease to continue learning about the neurobiology of disease.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <img src="images/alejandro2.png" class="card-img-top" alt="Alejandro Marmolejo Garza">
-      </div>
+  <footer class="footer mt-5" style="padding: 20px; background-color: #F0F0F0">
+    <div class="d-flex justify-content-center">
+      <img src="images/all_logos_nobg.png" alt="Logos" style="max-width: 100%; height: auto;">
     </div>
-  </div>
+  </footer>
 
-  <br>
-
-  <div class="card mb-3">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="images/kate.png" class="card-img-top" alt="Ekaterina Dagkesamanskaia">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h4 class="card-title">Ekaterina Dagkesamanskaia</h4>
-          <h5 class="card-title">PhD-student</h5>
-          <p class="card-text">My research is focused on the deciphering the heterogeneity of brain disorders via bioinformatics. In our laboratory, we utilize a cross-disciplinary approach to examine neuropathology, clinical summaries, and genetic information. Our research is dedicated to enhancing our understanding of brain disorders, linking clinical presentations to their underlying biological mechanisms.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <br>
-
-  <div class="card mb-3">
-    <div class="row g-0">
-      <div class="col-md-8">
-        <div class="card-body">
-          <h4 class="card-title">Nienke Mekkes</h4>
-          <h5 class="card-title">PhD-student</h5>
-          <p class="card-text">The aim of my project is to come to a better understanding of the multitude of brain disorders. To achieve this aim, we develop a cross-diagnostic approach where we integrate the extensive clinical and neuropathological data of the NHB together with multi-omics data using state-of-the-art computational and machine learning approaches.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <img src="images/nienke.png" class="card-img-top" alt="Nienke Mekkes">
-      </div>
-    </div>
-  </div>
-
-  <br>
-
-  <div class="card mb-3">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="images/self_pic2.png" style="width: 80%" class="card-img-top" alt="Tommaso Fortunato Asquini">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h4 class="card-title">Shivam Kumar</h4>
-          <h5 class="card-title">Postdoc</h5>
-          <p class="card-text"></p>Shivam is a machine learning researcher with a background in biomedical imaging and deep learning. He completed his PhD at the Translational Health Science and Technology Institute (THSTI), India, where he focused on developing AI-driven methods for analyzing complex biological data. In our lab, Shivam will focus on leveraging pathological imaging data to predict clinical traits and uncover underlying genetic profiles, aiming to bridge imaging phenotypes with genomics in precision medicine.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <br>
-
-  <div class="card mb-3">
-    <div class="row g-0">
-      <div class="col-md-8">
-        <div class="card-body">
-          <h4 class="card-title">Eric Hoekstra</h4>
-          <h5 class="card-title">Technician - Bioinformatician</h5>
-
-          <p class="card-text">I joined the lab in 2021 for an internship during my bachelor program Bioinformatics at the Hanze University. In 2022, I became a technician. My current role involves building and maintaining the Netherlands Neurogenomics database website as well as setting up a data management structure for our research group. I also implemented computational pipelines to optimize polygenic risk scores for brain disorders.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <img src="images/pingpong.png" class="card-img-top" alt="Eric Hoekstra">
-      </div>
-    </div>
-  </div>
-
-  <br>
-
-  <div class="card mb-3">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="images/ruhi_pic.jpg" style="width: 80%" class="card-img-top" alt="Tommaso Fortunato Asquini">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h4 class="card-title">Ruhi Soni</h4>
-          <h5 class="card-title">Research Analyst</h5>
-          <p class="card-text"></p>I joined the Holtman lab in 2025 after completing my MSc in Bioinformatics and Systems Biology from Amsterdam. As a Research Analyst, I aim to learn biological signatures underlying heterogeneity in psychiatric disorders, using multi-omic data and longitudinal clinical histories.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <br>
-
-  <footer class="footer" style="padding: 20px; background-color: #F0F0F0">
-    <div class="footer-content" style="display: flex; justify-content: center; align-items: center; margin-top: 1%">
-        <div class="footer-images" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; width: 100%; max-width: 1200px;">
-          <img src="images/all_logos_nobg.png" alt="Netherlands Brain Bank Logo" style="width: 1000px; max-width: 1000px; height: auto;">
-        </div>
-    </div>
-</footer>
 </body>
-
 </html>
